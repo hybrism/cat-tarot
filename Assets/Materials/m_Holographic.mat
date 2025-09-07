@@ -129,12 +129,12 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BrightPower: 2
-    - _Bright_Power: 3
+    - _Bright_Power: 0.75
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _ColorDensity: 2
-    - _Color_Density: 2
+    - _Color_Density: 3
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -142,6 +142,10 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _Foil_Intensity: 0.75
+    - _Foil_Intensity_1: 0.5
+    - _Foil_Intensity_2: 0.25
+    - _Foil_Intensity_3: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
