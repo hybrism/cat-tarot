@@ -43,9 +43,14 @@ namespace CatTarot.Gameplay
             }
         }
 
-        public void ResetRotation()
+        public void ShowFront()
         {
-            transform.rotation = initialRotation;
+            transform.rotation = Quaternion.LookRotation(Vector3.forward, Vector3.up);
+        }
+
+        public void ShowBack()
+        {
+            transform.rotation = Quaternion.LookRotation(Vector3.back, Vector3.up);
         }
 
         public void OnInteract()

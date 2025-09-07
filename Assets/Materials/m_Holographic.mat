@@ -46,7 +46,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Base_Texture:
-        m_Texture: {fileID: 2800000, guid: e54a6306b4a6f354badbf0079585d6d3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 03f33cfe5f412224a8734a66c456082b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -86,7 +86,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Foil_Pattern_3:
-        m_Texture: {fileID: 2800000, guid: feb0144fb4838fa4bab6da4c3dce1064, type: 3}
+        m_Texture: {fileID: 2800000, guid: 559970e155b31024a923d655c73ca7ee, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -172,8 +172,8 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _TilingOffset: {r: 1, g: 1.7, b: 0, a: 0}
     - _Tiling_Offset: {r: 1, g: 1, b: 0, a: 0}
-    - _Tiling_Offset_1: {r: 1, g: 1.74, b: 0, a: 0}
-    - _Tiling_Offset_2: {r: 4, g: 6.88, b: 0, a: 0}
-    - _Tiling_Offset_3: {r: 1, g: 1.74, b: 0, a: 0}
+    - _Tiling_Offset_1: {r: 1, g: 1.7, b: 0, a: 0}
+    - _Tiling_Offset_2: {r: 4, g: 6.8, b: 0, a: 0}
+    - _Tiling_Offset_3: {r: 1, g: 1.7, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
