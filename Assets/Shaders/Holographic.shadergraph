@@ -865,6 +865,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "bd28edf29a59422fa84e288f367f2ba5"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "1f57985ab7d54f63acf772753ec39519"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "c62cae7803f145078271502f5af97b95"
                 },
                 "m_SlotId": 0
@@ -916,20 +930,6 @@
                     "m_Id": "ad99aa6bee0e4b15aa9e3708c039f9fd"
                 },
                 "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "d73a7eb6cff94ea3a461dee273b7da23"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "1f57985ab7d54f63acf772753ec39519"
-                },
-                "m_SlotId": 1
             }
         },
         {
@@ -4207,8 +4207,8 @@
     "m_ObjectId": "6da285c6af254cc09ecb58d58b736aee",
     "m_Title": "Color based on view direction",
     "m_Position": {
-        "x": -1863.0,
-        "y": 845.0
+        "x": -1862.9998779296875,
+        "y": 844.9999389648438
     }
 }
 
@@ -4816,7 +4816,7 @@
     "m_ObjectId": "896f63ef2bd54e4e8a7566981b4a6dcc",
     "m_Title": "Color based on view direction",
     "m_Position": {
-        "x": -1873.0,
+        "x": -1872.9998779296875,
         "y": 1738.0
     }
 }
@@ -4998,7 +4998,7 @@
     "m_ObjectId": "8ddba042526a4b5d859c1633e8e93fc6",
     "m_Title": "Color based on view direction",
     "m_Position": {
-        "x": -1867.0,
+        "x": -1866.9998779296875,
         "y": -45.0
     }
 }
@@ -5371,7 +5371,7 @@
     "m_Title": "Foil Pattern",
     "m_Position": {
         "x": -1619.0,
-        "y": 1273.0
+        "y": 1272.9998779296875
     }
 }
 
@@ -6472,7 +6472,7 @@
     "m_ObjectId": "c62c7d205fb14a5bb328c0f72366158d",
     "m_Title": "Foil Pattern",
     "m_Position": {
-        "x": -1609.0,
+        "x": -1608.9998779296875,
         "y": 399.0
     }
 }
@@ -7575,7 +7575,7 @@
     "m_ObjectId": "f5924fbaf9714c8293156e8c491395f7",
     "m_Title": "Foil Pattern",
     "m_Position": {
-        "x": -1639.0,
+        "x": -1638.9998779296875,
         "y": 2171.0
     }
 }
