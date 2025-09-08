@@ -227,6 +227,9 @@
         },
         {
             "m_Id": "0693af65098b46b7ba021a2c23336875"
+        },
+        {
+            "m_Id": "8e274ec7495c4faf9ab97212f28957da"
         }
     ],
     "m_GroupDatas": [
@@ -1027,6 +1030,9 @@
             },
             {
                 "m_Id": "0693af65098b46b7ba021a2c23336875"
+            },
+            {
+                "m_Id": "8e274ec7495c4faf9ab97212f28957da"
             }
         ]
     },
@@ -4006,7 +4012,7 @@
     "m_Title": "Sample Foil Pattern",
     "m_Position": {
         "x": -2431.0,
-        "y": 830.0001220703125
+        "y": 830.0
     }
 }
 
@@ -4016,8 +4022,8 @@
     "m_ObjectId": "75489da6c3384d288ebb442bb8a479a2",
     "m_Title": "Sample Foil Pattern",
     "m_Position": {
-        "x": -2429.000244140625,
-        "y": -93.99990844726563
+        "x": -2429.0,
+        "y": -94.0
     }
 }
 
@@ -4603,6 +4609,21 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "87b93c69e4b0415dbe1198a38d1447af",
+    "m_Id": 0,
+    "m_DisplayName": "Alpha Clip Threshold",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "AlphaClipThreshold",
+    "m_StageCapability": 2,
+    "m_Value": 0.5,
+    "m_DefaultValue": 0.5,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "881dab03cf814ce9abd968fbc5fdc673",
     "m_Id": 4,
     "m_DisplayName": "R",
@@ -4776,6 +4797,40 @@
         "y": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "8e274ec7495c4faf9ab97212f28957da",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.AlphaClipThreshold",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "87b93c69e4b0415dbe1198a38d1447af"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.AlphaClipThreshold"
 }
 
 {
@@ -5669,7 +5724,7 @@
     "m_Title": "Color Based On View Direction",
     "m_Position": {
         "x": -2587.0,
-        "y": 394.00006103515627
+        "y": 394.0
     }
 }
 
@@ -6080,7 +6135,7 @@
     "m_ZWriteControl": 0,
     "m_AlphaMode": 0,
     "m_RenderFace": 2,
-    "m_AlphaClip": false,
+    "m_AlphaClip": true,
     "m_CastShadows": true,
     "m_ReceiveShadows": true,
     "m_DisableTint": false,
@@ -6298,7 +6353,7 @@
     "m_Title": "Sample Foil Pattern",
     "m_Position": {
         "x": -2434.0,
-        "y": 1752.9998779296875
+        "y": 1753.0
     }
 }
 
@@ -6451,7 +6506,7 @@
     "m_ObjectId": "c14681f37b8e41539e6783b01069ddac",
     "m_Title": "Color Based On View Direction",
     "m_Position": {
-        "x": -2585.000244140625,
+        "x": -2585.0,
         "y": 1301.0
     }
 }
@@ -6523,7 +6578,7 @@
     "m_Title": "Color Based On View Direction",
     "m_Position": {
         "x": -2599.0,
-        "y": -540.9998779296875
+        "y": -541.0
     }
 }
 
